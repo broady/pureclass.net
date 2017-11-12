@@ -1,0 +1,172 @@
+body {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #303;
+  background: #fbfbf3;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  background-image: url('/images/menu.png');
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  line-height: 1.5;
+}
+
+a {
+  color: #303;
+}
+
+#logoblock {
+  background-image: url('/images/logo.png');
+  background-repeat: no-repeat;
+  height: 39px;
+  width: 383px;
+  margin-left: 232px;
+}
+
+#logoblock h2 {
+  font-size: 1%;
+  text-indent: -9999em;
+}
+
+#menu {
+  position: absolute;
+  left: 0;
+  top: 140px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  line-height: 1;
+}
+
+#menu li a {
+  display: block;
+  text-decoration: none;
+  padding: .5em 2.3em;
+  text-transform: lowercase;
+  font-weight: bold;
+  color: #fbfbf3;
+}
+
+#menu li a:hover {
+  opacity: .5;
+}
+
+#content, body > h1 {
+  margin-left: 230px;
+  color: #333;
+}
+
+#content {
+  width: 40em;
+}
+
+#content ul {
+  position: relative;
+  top: -.8em;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#footer {
+  font-size: 90%;
+  color: #303;
+  opacity: .7;
+  padding-bottom: 3em;
+  margin-top: 2em;
+}
+
+body p {
+  margin: .8em 0;
+}
+
+body > h1 {
+  text-transform: lowercase;
+  font-size: 160%;
+  padding-top: 20px;
+}
+
+#menu-home {
+  text-indent: .25em;
+}
+
+#menu-projects {
+  text-indent: .2em;
+}
+
+#menu-testimonials {
+  text-indent: .3em;
+}
+
+#menu-contact {
+  text-indent: .6em;
+}
+
+/* Testimonials */
+
+body#pureclass-Testimonials cite span {
+  display: block;
+}
+body#pureclass-Testimonials cite span.caps {
+  display: inline;
+}
+
+body#pureclass-Testimonials #content div > p {
+  margin: 0;
+  padding: 0;
+  color: #303;
+  padding-top: .5em;
+  padding-bottom: 2em;
+}
+
+body#pureclass-Testimonials blockquote {
+  margin-left: 0;
+  border-left: .3em solid #999;
+  padding: .6em 1em;
+  margin: 0;
+}
+
+body#pureclass-Testimonials blockquote p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Contact page */
+
+.vcard a.url {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.vcard .abn {
+  font-size: 80%;
+  letter-spacing: .1em;
+  padding-bottom: 1em;
+}
+
+.vcard div.country-name {
+  padding-bottom: 1em;
+}
+
+.vcard div.tel .type {
+  font-weight: bold;
+}
+
+.vcard div.tel .type:after {
+  content: ': ';
+}
+
+.vcard a.email {
+  line-height: 3;
+}
+
+/* Projects */
+
+body#pureclass-Projects #content li {
+  margin-bottom: 1em;
+}
+
+/* home */
+
+body#pureclass-Intro #content {
+  padding-top: 1em;
+}
